@@ -24,6 +24,11 @@
   margin-bottom: 20px;
 }
 
+.total-price {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
 .order-item {
   display: flex;
   justify-content: space-between;
@@ -31,13 +36,6 @@
   padding: 10px 5px;
   border-bottom: 1px solid #ccc;
 }
-
-.total-price {
-  margin-top: 20px;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
 button .fa-icon {
   margin-right: 10px;
 }
