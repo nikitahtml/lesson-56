@@ -6,6 +6,41 @@
 }
 
 
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.order-details,
+.add-items {
+  width: 45%; border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.order-details h2,
+.add-items h2 {
+  margin-bottom: 20px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.total-price {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+button .fa-icon {
+  margin-right: 10px;
+}
 
 button {
   width: 150px;
