@@ -5,3 +5,17 @@
   text-align: center;
 }
 
+
+
+button {
+  width: 150px;
+  margin: 10px 10px;
+  border-radius: 14px;
+  padding: 14px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  display: inline-block;
+  align-items: center;
+
+}
+

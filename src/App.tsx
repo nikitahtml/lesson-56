@@ -1,13 +1,8 @@
+import React, { useReducer } from 'react';
+import AddItems from './components/AddItems';
+import OrderDetails from './components/OrderDetails';
+import './App.css';
+import { faHamburger, faPizzaSlice, faIceCream, faCoffee, faCarrot, faDrumstickBite } from '@fortawesome/free-solid-svg-icons';
 
-import './App.css'
 
-const App = () => {
-
-  return (
-    <>
-
-    </>
-  )
-};
-
-export default App
+export default App;
